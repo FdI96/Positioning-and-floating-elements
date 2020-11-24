@@ -1,14 +1,52 @@
 .article-font {
-<<<<<<< Updated upstream
-    font-family: NYTImperial Regular;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-  }
-  
-  
-=======
   font-family: NYTImperial Regular;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
->>>>>>> Stashed changes
+
+
+
+.main-title {
+  font-family: NYTCheltenham BoldItalic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  height: 98px;
+  margin: 0px 651.500px 16px 651.500px;
+}
+
+.img {
+  height: 100px;
+  width: 500px;
+}
+
+
+
+.flex-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu {
+  flex: 1;
+}
+
+.search {
+  flex: 1;
+}
+
+.logo {
+  flex: 3;
+}
+
+.rigth-buttom1 {
+    flex: 1;
+}
+
+.rigth-buttom2 {
+    flex: 1;
+}
+

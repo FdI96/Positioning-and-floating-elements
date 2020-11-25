@@ -228,3 +228,18 @@ a:active {
   width: 720px;
   margin: auto;
 }
+
+.floatbox {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+  text-align: left;
+}
+
+.column2 {
+  flex: 50%;
+  text-align: right;
+  align-content: space-around;
+}

@@ -231,15 +231,18 @@ a:active {
 
 .floatbox {
   display: flex;
+  padding-top: 20px;
 }
 
 .column1 {
-  flex: 50%;
-  text-align: left;
+  flex: 70%;
+  
 }
 
 .column2 {
-  flex: 50%;
-  text-align: right;
-  align-content: space-around;
+  display: flex;
+  flex: 30%;
+  justify-content: space-around;
 }
+
+

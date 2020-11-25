@@ -1,15 +1,10 @@
 /* NYT Franklin*/
 @font-face {
-<<<<<<< Updated upstream
   font-family: 'NYTFranklin';
-=======
-  font-family: 'nyt-franklin';
->>>>>>> Stashed changes
   src: url('/fonts/family/franklin/franklin-italic-300.ttf') format('truetype');
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-<<<<<<< Updated upstream
 }
   
 @font-face {
@@ -277,7 +272,3 @@
   font-weight: 700;
   font-display: swap;
 }
-=======
-  }
-  
->>>>>>> Stashed changes

@@ -1,5 +1,5 @@
 .article-font {
-  font-family: NYTImperial Regular;
+  font-family: 'Tinos';
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -7,7 +7,7 @@
   height: 18px;
   width: 300px;
   font-size: 14.25px;
-  font-family: NYTFranklin Light;
+  font-family: 'Libre Franklin';
   position: relative;
   left: 30px;
   font-weight: 600;
@@ -26,14 +26,12 @@
 
 
 .main-title {
-  font-family: NYTCheltenham BoldItalic;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Domine';
   font-size: 2.5rem;
   line-height: 3rem;
-  height: 98px;
-  margin: 0px 651.500px 16px 651.500px;
+  width: 600px;
+  text-align: left;
+  margin: 3rem auto 1rem auto
 }
 
 
@@ -63,10 +61,10 @@
 
 
 .menu-search-word {
-    display: flex;
-    justify-content: space-around;
-    max-height: 80px;
-    max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  max-height: 80px;
+  max-width: 200px;
 }
 .button-menu:hover {
   background-color: rgb(180, 178, 178);
@@ -92,11 +90,25 @@
 
 
 
-
+.man-img {
+  height: 100%;
+  width: 100%;
+}
 
 .caption-img {
-  max-height: 50%;
-  max-width: 50%
+  height: 675px;
+  width: 1200px;
+  margin: auto;
+}
+
+.captionimg-text {
+  width: 1200px;
+  height: 80px;
+  margin: auto;
+}
+
+.text {
+  font-size: medium;
 }
 
 a:link {
@@ -129,4 +141,35 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+.article-size {
+  width: 900px;
+  margin: auto;
+}
+
+.img-text-mix {
+  width: 1903px;
+  height: 753px;
+}
+
+.title-inflation {
+  width: 900px;
+  margin: auto;
+  font-size: 1.25rem;
+}
+
+.small-paragraph {
+  width: 900px;
+  margin: auto;
+  font-size: .875rem;
+}
+
+
+.flex-mix {
+  width: 945px;
+  height: 723px;
+  margin: auto;
+  background-image: url("/images/background-img-mix.png");
+  background-size: contain;
 }

@@ -1,5 +1,5 @@
 .article-font {
-  font-family: 'Tinos';
+  font-family: 'Tinos',Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -9,7 +9,7 @@
   height: 18px;
   width: 300px;
   font-size: 14.25px;
-  font-family: 'Libre Franklin';
+  font-family: 'Libre Franklin',Arial, Helvetica, sans-serif;
   position: relative;
   left: 30px;
   font-weight: 600;
@@ -27,7 +27,7 @@
 
 
 .main-title {
-  font-family: 'Domine';
+  font-family: 'Domine',Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
   width: 600px;

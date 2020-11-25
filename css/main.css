@@ -3,6 +3,8 @@
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
+
+
 .linkSpaceCosmos {
   height: 18px;
   width: 300px;
@@ -111,42 +113,74 @@
   font-size: medium;
 }
 
+/*link color*/
 a:link {
   color: black;
+  text-decoration: none;
 }
 
 a:visited {
   color: black;
+  text-decoration: none;
 }
 
 a:hover {
   color: black;
+  text-decoration: none;
 }
 
 a:active {
   color: black;
+  text-decoration: none;
 } 
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
+/*Article Size*/
 .article-size {
   width: 600px;
   margin: auto;
 }
+
+/*Article links decoration*/
+.article-size a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.article-size a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.article-size a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.article-size a:active {
+  color: black;
+  text-decoration: none;
+} 
+
+/*.article-font links decoration*/
+.article-font a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.article-font a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.article-font a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.article-font a:active {
+  color: black;
+  text-decoration: none;
+} 
 
 .img-text-mix {
   width: 1903px;

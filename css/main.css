@@ -144,7 +144,7 @@ a:active {
 }
 
 .article-size {
-  width: 900px;
+  width: 600px;
   margin: auto;
 }
 
@@ -178,4 +178,19 @@ a:active {
   height: 100%;
   background-image: url("/images/background-img-mix.png");
   background-size: contain;
+}
+
+.surrounding-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.ninebox {
+  width: 945px;
+  margin: auto;
+}
+.inline-image{
+  width: 720px;
+  margin: auto;
 }

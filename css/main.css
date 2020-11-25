@@ -151,6 +151,7 @@ a:active {
 .img-text-mix {
   width: 1903px;
   height: 753px;
+  margin: auto;
 }
 
 .title-inflation {
@@ -170,6 +171,11 @@ a:active {
   width: 945px;
   height: 723px;
   margin: auto;
+}
+
+.flex-inside{
+  width: 100%;
+  height: 100%;
   background-image: url("/images/background-img-mix.png");
   background-size: contain;
 }

@@ -94,16 +94,18 @@
 }
 
 .caption-img {
-  height: 675px;
-  width: 1200px;
+  height: 531px;
+  width: 945px;
   margin: auto;
 }
 
+
 .captionimg-text {
-  width: 1200px;
+  width: 954px;
   height: 80px;
   margin: auto;
 }
+
 
 .text {
   font-size: medium;
@@ -218,6 +220,13 @@ a:active {
 .inline-image{
   width: 720px;
   margin: auto;
+  position: relative;
+  right: 70px;
+}
+
+.lineimg {
+  width: 100%;
+  height: 100%;
 }
 
 .floatbox {
@@ -235,15 +244,7 @@ a:active {
   flex: 30%;
   justify-content: space-around;
 }
-/*
-.flex-inside {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
-}
-*/
+
 .box {
   position: relative;
   top: 60px;
@@ -253,3 +254,93 @@ a:active {
   display: inline-block;
   width: 230px;
 }
+
+.leftNrigthContainer {
+  width: 1300px;
+  height: 1425px;
+  margin: auto;
+  padding: 20px 60px 0px;
+  display: flex;
+}
+
+.leftNrigthContainer span img {
+  height: 181px;
+  width: 272px;
+}
+
+.div-editors {
+  width: 852px;
+  height: 325px;
+}
+
+.div-left {
+  width: 852px;
+  height: 616px;
+}
+
+.aside-rigth {
+  width: 318px;
+  height: 1021px;
+}
+
+aside {
+  width: 30%;
+  position: absolute;
+  left: 1400px;
+  float: right;
+  font-style: italic;
+}
+.top-subscribe {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.top-login {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.floatbox {
+  display: flex;
+  padding-top: 20px;
+}
+
+.column1 {
+  flex: 70%;
+  
+}
+
+.column1button {
+  flex: 70%;
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+.column2 {
+  display: flex;
+  flex: 30%;
+  justify-content: space-around;
+}
+
+.column2bottom {
+  display: flex;
+  flex: 30%;
+  justify-content: space-around;
+}
+

@@ -94,19 +94,19 @@
 }
 
 .caption-img {
-  height: 675px;
-  width: 1200px;
+  height: 531px;
+  width: 945px;
   margin: auto;
 }
 
 .captionimg-text {
-  width: 1200px;
+  width: 954px;
   height: 80px;
   margin: auto;
 }
 
 .text {
-  font-size: medium;
+  font-size: small;
 }
 
 /*link color*/
@@ -218,7 +218,15 @@ a:active {
 .inline-image{
   width: 720px;
   margin: auto;
+  position: relative;
+  right: 70px;
 }
+
+.lineimg {
+  width: 100%;
+  height: 100%;
+}
+
 
 .floatbox {
   display: flex;
@@ -230,20 +238,29 @@ a:active {
   
 }
 
+.column1button {
+  flex: 70%;
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
 .column2 {
   display: flex;
   flex: 30%;
   justify-content: space-around;
 }
-/*
-.flex-inside {
+
+.column2bottom {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
+  flex: 30%;
+  justify-content: space-around;
 }
-*/
 .box {
   position: relative;
   top: 60px;
@@ -252,4 +269,32 @@ a:active {
 .box span {
   display: inline-block;
   width: 230px;
+}
+
+.top-subscribe {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.top-login {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+aside {
+  width: 30%;
+  padding-left: 150px;
+  margin-left: 150px;
+  float: right;
+  font-style: italic;
 }

@@ -1,5 +1,5 @@
 .article-font {
-  font-family: 'Tinos';
+  font-family: 'Tinos',Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -9,7 +9,7 @@
   height: 18px;
   width: 300px;
   font-size: 14.25px;
-  font-family: 'Libre Franklin';
+  font-family: 'Libre Franklin',Arial, Helvetica, sans-serif;
   position: relative;
   left: 30px;
   font-weight: 600;
@@ -27,7 +27,7 @@
 
 
 .main-title {
-  font-family: 'Domine';
+  font-family: 'Domine',Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
   width: 600px;
@@ -99,14 +99,16 @@
   margin: auto;
 }
 
+
 .captionimg-text {
   width: 954px;
   height: 80px;
   margin: auto;
 }
 
+
 .text {
-  font-size: small;
+  font-size: medium;
 }
 
 /*link color*/
@@ -227,6 +229,86 @@ a:active {
   height: 100%;
 }
 
+.floatbox {
+  display: flex;
+  padding-top: 20px;
+}
+
+.column1 {
+  flex: 70%;
+  
+}
+
+.column2 {
+  display: flex;
+  flex: 30%;
+  justify-content: space-around;
+}
+
+.box {
+  position: relative;
+  top: 60px;
+}
+
+.box span {
+  display: inline-block;
+  width: 230px;
+}
+
+.leftNrigthContainer {
+  width: 1300px;
+  height: 1425px;
+  margin: auto;
+  padding: 20px 60px 0px;
+  display: flex;
+}
+
+.leftNrigthContainer span img {
+  height: 181px;
+  width: 272px;
+}
+
+.div-editors {
+  width: 852px;
+  height: 325px;
+}
+
+.div-left {
+  width: 852px;
+  height: 616px;
+}
+
+.aside-rigth {
+  width: 318px;
+  height: 1021px;
+}
+
+aside {
+  width: 30%;
+  position: absolute;
+  left: 1400px;
+  float: right;
+  font-style: italic;
+}
+.top-subscribe {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.top-login {
+  background-color: #3275a8; 
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
 
 .floatbox {
   display: flex;
@@ -261,40 +343,4 @@ a:active {
   flex: 30%;
   justify-content: space-around;
 }
-.box {
-  position: relative;
-  top: 60px;
-}
 
-.box span {
-  display: inline-block;
-  width: 230px;
-}
-
-.top-subscribe {
-  background-color: #3275a8; 
-  border: none;
-  color: white;
-  padding: 5px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.top-login {
-  background-color: #3275a8; 
-  border: none;
-  color: white;
-  padding: 5px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-aside {
-  width: 30%;
-  padding-left: 150px;
-  margin-left: 150px;
-  float: right;
-  font-style: italic;
-}

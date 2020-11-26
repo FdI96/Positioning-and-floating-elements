@@ -2,7 +2,9 @@ Positioning and Floating Elements
 
     Microverse Project 1: Recreate the New York Time Article. 
 
-    This project helps us understand float, flexbox, and grid by utilizing these features while building the NYT article. Our project is saved here on GitHub to enhance feedback and collaboration. 
+    This project helps us understand float, flexbox, and grid by 
+    utilizing these features while building the NYT article. Our 
+    project is saved here on GitHub to enhance feedback and collaboration. 
 
 ![Screenshot](/images/screen.png "Screenshot")
 

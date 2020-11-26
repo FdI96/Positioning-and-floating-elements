@@ -8,7 +8,7 @@
   height: 18px;
   width: 300px;
   font-size: 14.25px;
-  font-family: 'Libre Franklin',Arial, Helvetica, sans-serif;
+  font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
   position: relative;
   left: 30px;
   font-weight: 600;
@@ -24,12 +24,12 @@
 }
 
 .main-title {
-  font-family: 'Domine',Arial, Helvetica, sans-serif;
+  font-family: 'Domine', Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
   width: 600px;
   text-align: left;
-  margin: 3rem auto 1rem auto
+  margin: 3rem auto 1rem auto;
 }
 
 .svg-img {
@@ -42,7 +42,7 @@
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -195,7 +195,7 @@ a:active {
   margin: auto;
 }
 
-.flex-inside{
+.flex-inside {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -207,7 +207,7 @@ a:active {
   background-size: contain;
 }
 
-.inline-image{
+.inline-image {
   width: 720px;
   margin: auto;
   position: relative;
@@ -217,21 +217,6 @@ a:active {
 .lineimg {
   width: 100%;
   height: 100%;
-}
-
-.floatbox {
-  display: flex;
-  padding-top: 20px;
-}
-
-.column1 {
-  flex: 70%; 
-}
-
-.column2 {
-  display: flex;
-  flex: 30%;
-  justify-content: space-around;
 }
 
 .box {
@@ -281,7 +266,7 @@ aside {
 }
 
 .top-subscribe {
-  background-color: #3275a8; 
+  background-color: #3275a8;
   border: none;
   color: white;
   padding: 5px 32px;
@@ -291,7 +276,7 @@ aside {
 }
 
 .top-login {
-  background-color: #3275a8; 
+  background-color: #3275a8;
   border: none;
   color: white;
   padding: 5px 32px;
@@ -307,7 +292,6 @@ aside {
 
 .column1 {
   flex: 70%;
-  
 }
 
 .column1button {
@@ -318,8 +302,7 @@ aside {
   padding: 5px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  
+  font-size: 16px;  
 }
 
 .column2 {

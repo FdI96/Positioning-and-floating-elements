@@ -258,13 +258,7 @@ a:active {
 .aside-right {
   width: 318px;
   height: 200px;
-  font-family: 'Tinos', Arial, Helvetica, sans-serif;
-  font-style: italic;
-}
-
-aside {
-  width: 30%;
-  position: absolute;
+  position: relative;
   top: 1400px;
   right: 40px;
   z-index: -5;
@@ -273,6 +267,7 @@ aside {
   justify-content: space-between;
   font-family: 'Tinos', Arial, Helvetica, sans-serif;
   font-style: italic;
+  margin-left: 700px;
 }
 
 .picks {

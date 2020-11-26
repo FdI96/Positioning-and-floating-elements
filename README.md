@@ -33,4 +33,6 @@ Acknowledgments
 
 📝 License
 
-This project is ![MIT](https://github.com/FdI96/Positioning-and-floating-elements/blob/main/LICENSE) licensed.
+
+This project is ![MIT](https://github.com/FdI96/Positioning-and-floating-elements/blob/Development/LICENSE) licensed.
+

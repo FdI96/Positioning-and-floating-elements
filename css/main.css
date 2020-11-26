@@ -1,9 +1,8 @@
 .article-font {
-  font-family: 'Tinos',Arial, Helvetica, sans-serif;
+  font-family: 'Tinos', Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-
 
 .linkSpaceCosmos {
   height: 18px;
@@ -15,7 +14,6 @@
   font-weight: 600;
 }
 
-
 .search-button {
   position: relative;
   max-height: 30px;
@@ -24,7 +22,6 @@
   background-color: transparent;
   border: none;
 }
-
 
 .main-title {
   font-family: 'Domine',Arial, Helvetica, sans-serif;
@@ -35,12 +32,11 @@
   margin: 3rem auto 1rem auto
 }
 
-
-
 .svg-img {
   height: 25px;
-  width: 195px;  
+  width: 195px;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -49,6 +45,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -59,18 +56,16 @@
 /* Show the dropdown menu on hover */
 .button-menu:hover + .dropdown-content {display: block;}
 
-
 .menu-search-word {
   display: flex;
   justify-content: space-around;
   max-height: 80px;
   max-width: 200px;
 }
+
 .button-menu:hover {
   background-color: rgb(180, 178, 178);
 }
-
-
 
 .button-menu {
   max-height: 22px;
@@ -86,8 +81,6 @@
   justify-content: space-around; 
 }
 
-
-
 .man-img {
   height: 100%;
   width: 100%;
@@ -99,13 +92,11 @@
   margin: auto;
 }
 
-
 .captionimg-text {
   width: 954px;
   height: 80px;
   margin: auto;
 }
-
 
 .text {
   font-size: medium;
@@ -198,7 +189,6 @@ a:active {
   font-size: .875rem;
 }
 
-
 .flex-mix {
   width: 945px;
   height: 576px;
@@ -235,8 +225,7 @@ a:active {
 }
 
 .column1 {
-  flex: 70%;
-  
+  flex: 70%; 
 }
 
 .column2 {
@@ -290,6 +279,7 @@ aside {
   float: right;
   font-style: italic;
 }
+
 .top-subscribe {
   background-color: #3275a8; 
   border: none;
@@ -343,4 +333,3 @@ aside {
   flex: 30%;
   justify-content: space-around;
 }
-

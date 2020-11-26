@@ -64,16 +64,16 @@
   max-width: 200px;
 }
 
-.button-menu:hover {
-  background-color: rgb(180, 178, 178);
-}
-
 .button-menu {
   max-height: 22px;
   border: none;
   background-color: transparent;
   position: relative;
   display: inline-block;
+}
+
+.button-menu:hover {
+  background-color: rgb(180, 178, 178);
 }
 
 .flex-nav {

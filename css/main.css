@@ -540,8 +540,8 @@ a:active {
   position: relative;
 }
 
-.plus-button:after,
-.plus-button:before {
+.plus-button :after,
+.plus-button :before {
   content: " ";
   display: block;
   background-color: grey;
@@ -551,12 +551,12 @@ a:active {
   transform: translate(-50%, -50%);
 }
 
-.plus-button:before {
+.plus-button :before {
   height: 1em;
   width: 0.2em;
 }
 
-.plus-button:after {
+.plus-button :after {
   height: 0.2em;
   width: 1em;
 }

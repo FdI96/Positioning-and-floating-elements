@@ -85,6 +85,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  border-bottom: 2px solid;
+  background-color: white;
 }
 
 .man-img {
@@ -215,7 +221,7 @@ a:active {
   align-content: space-around;
   width: 100%;
   height: 100%;
-  background-image: url("/images/background-img-mix.png");
+  background-image: url("images/background-img-mix.png");
   background-size: contain;
 }
 
@@ -540,9 +546,9 @@ a:active {
   position: relative;
 }
 
-.plus-button :after,
-.plus-button :before {
-  content: " ";
+.plus-button:after,
+.plus-button:before {
+  content: "";
   display: block;
   background-color: grey;
   position: absolute;
@@ -551,12 +557,12 @@ a:active {
   transform: translate(-50%, -50%);
 }
 
-.plus-button :before {
+.plus-button:before {
   height: 1em;
   width: 0.2em;
 }
 
-.plus-button :after {
+.plus-button:after {
   height: 0.2em;
   width: 1em;
 }

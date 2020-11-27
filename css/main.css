@@ -404,7 +404,6 @@ a:active {
   height: 22px;
 }
 
-
 .title-newsletters span h2 {
   margin: 0 0 0 0;
   font-size: 1.0625rem;
@@ -541,8 +540,9 @@ a:active {
   position: relative;
 }
 
-.plus-button:after , .plus-button:before {
-  content: "";
+.plus-button:after,
+.plus-button:before {
+  content: " ";
   display: block;
   background-color: grey;
   position: absolute;

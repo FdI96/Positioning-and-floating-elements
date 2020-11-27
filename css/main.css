@@ -133,6 +133,10 @@ a:active {
   margin: auto;
 }
 
+.mid a {
+  font-size: 14px;
+}
+
 .article-size a:hover {
   color: black;
   text-decoration: none;
@@ -309,7 +313,6 @@ a:active {
   padding-left: 50px;
 }
 
-
 .top-subscribe {
   background-color: #3275a8;
   border: none;
@@ -362,7 +365,6 @@ a:active {
   justify-content: space-around;
 }
 
-
 /* CSS FOR LOWER IMAGES PARTS */
 
 .bigContainer {
@@ -394,6 +396,15 @@ a:active {
   border-top: 2px solid rgb(0, 0, 0);
 }
 
+.widtherLink h2 {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  max-width: 300px;
+  height: 22px;
+}
+
+
 .title-newsletters span h2 {
   margin: 0 0 0 0;
   font-size: 1.0625rem;
@@ -407,14 +418,6 @@ a:active {
   height: 20px;
   padding: 17px 0 17px 0;
   border-top: 2px solid rgb(0, 0, 0);
-}
-
-.widtherLink h2 {
-  margin: 0;
-  font-size: 1.0625rem;
-  line-height: 1.3125rem;
-  max-width: 300px;
-  height: 22px;
 }
 
 .dontshowit {
@@ -432,7 +435,7 @@ a:active {
   padding: 0 0 20px 0;
 }
 
-.second-row{
+.second-row {
   display: flex;
   flex-direction: row;
   padding: 0 0 20px 0;
@@ -493,10 +496,6 @@ a:active {
   margin: 0;
 }
 
-.mid a {
-  font-size: 14px;
-}
-
 .mid-text p {
   color: rgb(51, 51, 51);
   font-size: 0.6875rem;
@@ -541,7 +540,8 @@ a:active {
   border-radius: 999px;
   position: relative;
 }
-.plus-button:after, .plus-button:before {
+
+.plus-button:after , .plus-button:before {
   content: "";
   display: block;
   background-color: grey;
@@ -550,10 +550,12 @@ a:active {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .plus-button:before {
   height: 1em;
   width: 0.2em;
 }
+
 .plus-button:after {
   height: 0.2em;
   width: 1em;
